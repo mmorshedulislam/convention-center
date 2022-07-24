@@ -18,3 +18,28 @@ h1, h2, h3, h4, h5, h6, p, span{
     font-family: 'Poppins', sans-serif;
 
 }
+.card-checkbox p{
+    display: flex;
+    justify-content: start;
+}
+
+.card-checkbox p span{
+    display: inline;
+    color: #5243C2;
+    background: rgba(82, 67, 194, 0.103693);
+    width: 25px;
+    height: 25px;
+    /* padding: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.card-checkbox button{
+    font-weight: 500;
+    display: block;
+    background-color: #FDF4FA;
+    width: 100%;
+}
